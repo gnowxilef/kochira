@@ -18,3 +18,4 @@ https://github.com/rfk/pyenchant/tarball/master#egg=pyenchant
 textblob
 ccy
 pymediainfo
+github3.py

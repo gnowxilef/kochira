@@ -4,7 +4,7 @@ Account management.
 Allows users to manage their account information.
 """
 
-from pydle.async import Future
+from pydle import Future
 
 from kochira.service import Service, coroutine
 from kochira.userdata import UserData

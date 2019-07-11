@@ -1,6 +1,6 @@
 import threading
 import logging
-from pydle.async import Future
+from pydle import Future
 
 from .service import HookContext
 

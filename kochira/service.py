@@ -6,7 +6,7 @@ import bisect
 import gettext
 import os
 
-from pydle.async import coroutine, Future
+from pydle import coroutine, Future
 
 from .auth import has_permission, requires_permission
 from .userdata import UserData

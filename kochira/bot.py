@@ -12,7 +12,7 @@ from peewee import SqliteDatabase
 import signal
 import yaml
 
-from pydle.async import EventLoop, coroutine
+from pydle import EventLoop, coroutine
 
 from . import config
 from .client import Client

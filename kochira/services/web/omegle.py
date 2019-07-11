@@ -7,7 +7,7 @@ Talk to strangers!
 import json
 import random
 
-from pydle.async import Future, coroutine, parallel
+from pydle import Future, coroutine, parallel
 
 from urllib.parse import urlencode
 

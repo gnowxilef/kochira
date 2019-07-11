@@ -3,7 +3,7 @@ from collections import deque
 import textwrap
 
 from pydle import Client as _Client
-from pydle.async import Future, coroutine
+from pydle import Future, coroutine
 from pydle.features.rfc1459.protocol import MESSAGE_LENGTH_LIMIT
 
 from .service import Service, HookContext

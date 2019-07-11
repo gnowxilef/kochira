@@ -4,7 +4,7 @@ import peewee
 import collections
 from .db import Model, database
 
-from pydle.async import coroutine
+from pydle import coroutine
 
 
 class JSONField(peewee.TextField):
